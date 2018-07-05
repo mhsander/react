@@ -81,6 +81,8 @@ class Game extends React.Component {
     })
   }
 
+  //display game history
+  //allows to go to specific move
   render() {
     const history = this.state.history;
     const current = history[this.state.stepNumber];
